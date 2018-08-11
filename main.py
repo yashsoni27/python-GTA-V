@@ -1,4 +1,4 @@
-import numpy as np
+neimport numpy as np
 import cv2
 import time
 from grabscreen import grab_screen
@@ -26,7 +26,7 @@ if os.path.isfile(file_name):
     print('File exist, loading previous data!')
     training_data = list(np.load(file_name))
 else:
-    print('File does not exist.. sorry you kwazy ass. now go cry in the corner')
+    print('File does not exist.. Creating one for you...')
     training_data = []
 
 
