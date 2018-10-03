@@ -5,6 +5,7 @@ from grabscreen import grab_screen
 from getkeys import key_check
 import os
 
+#I added this comment because I can
 
 def keys_to_output(keys):
     #[A,W,D]
